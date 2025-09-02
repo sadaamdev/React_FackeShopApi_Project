@@ -10,7 +10,7 @@ export default function Header() {
       </ul>
 
       <div className="">
-        <button className=' py-2 px-9 bg-amber-500 text-white rounded-md'>Login</button>
+        <Link to="/login" className=' py-2 px-9 bg-amber-500 text-white rounded-md'>Login</Link >
       </div>
     </div>
   )
